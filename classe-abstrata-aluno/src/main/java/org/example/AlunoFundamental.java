@@ -1,0 +1,35 @@
+package org.example;
+
+public class AlunoFundamental extends Aluno{
+
+    // Atributos
+    private Double nota1;
+    private Double nota2;
+    private Double nota3;
+    private Double nota4;
+
+    // Construtor
+    public AlunoFundamental(Integer ra, String nome, Double nota1, Double nota2, Double nota3, Double nota4) {
+        super(ra, nome);
+        this.nota1 = nota1;
+        this.nota2 = nota2;
+        this.nota3 = nota3;
+        this.nota4 = nota4;
+    }
+
+    // Metodos
+    public Double calculaMedia() {
+        return (nota1 + nota2 + nota3 + nota4) / 4;
+    }
+
+    @Override
+    public String toString() {
+        return "AlunoFundamental{" +
+                "nota1=" + nota1 +
+                ", nota2=" + nota2 +
+                ", nota3=" + nota3 +
+                ", nota4=" + nota4 +
+                ", média=" + calculaMedia() +
+                "} " + super.toString();
+    }
+}
