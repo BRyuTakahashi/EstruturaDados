@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
 
         //Declaração e criacção de um vetor de tamanho 5
         int[] vetor = new int[5];
@@ -26,7 +27,7 @@ public class Main {
         System.out.println("Valores do vetor:");
         exibeVetor(vetor);
 
-        // preenchendo o vetor com valores digitados pelo usuarop
+        // preenchendo o vetor com valores digitados pelo usuario
         for (int i = 0; i < vetor.length; i++){
             System.out.printf("Digite o valor no indice %d:", i);
             vetor[i] = scanner.nextInt();
@@ -42,12 +43,13 @@ public class Main {
         String[] vet3 = new String[4];
         for(int i = 0; i < vet3.length; i++){
             System.out.printf("Digite o texto que quer atribuir ao vetor vet3[%d]", i);
-            vet3[i] = scanner.nextLine();
+            vet3[i] = scanner.next();
         }
 
         // exibindo os valores do vetor vet3
         for(String s: vet3){
-            System.out.println(s + "\n");
+            System.out.println(s);
         }
+
     }
 }

@@ -13,11 +13,13 @@ public class Exercicio1 {
             vetor[indice] = scanner.nextInt();
         }
 
+        // imprimindo na ordem numerica
         System.out.println("\n\nImprimindo os numeros na ordem:\n");
         for (int indice = 0; indice < vetor.length; indice++){
             System.out.printf("Numero no vetor[%d]: %d\n", indice, vetor[indice]);
         }
 
+        // imprimindo na ordem inversa
         System.out.println("\n\nImprimindo os numeros na ordem inversa:\n");
         for (int indice = vetor.length - 1; indice >= 0; indice--){
             System.out.printf("Numero no vetor[%d]: %d\n", indice, vetor[indice]);
