@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="516c95ec-3d20-4ee5-83dc-36ccc700b31b" name="Changes" comment="" />
+    <list default="true" id="516c95ec-3d20-4ee5-83dc-36ccc700b31b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lista-estatica/src/main/java/org/example/ListaEstaticaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista-estatica/src/main/java/org/example/ListaEstativa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +16,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2U0AAzkvUvBkLNSNoMKxzGlqdDC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/bruno/EstruturaDados/Exercicio-Interface/pom.xml"
+    "last_opened_file_path": "C:/Users/bruno/EstruturaDados/lista-estatica-incompleta"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
