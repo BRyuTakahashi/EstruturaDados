@@ -64,4 +64,38 @@ public class ListaEstativa {
         }
         return false;
     }
+
+    public boolean chanceElem (int oldElem, int newElem) {
+        for(int index = 0; index < vetor.length; index++) {
+            if(vetor[index] == oldElem) {
+                vetor[index] = newElem;
+                return true;
+            }
+        }
+        System.out.println("Valor não encontrado");
+        return false;
+    }
+
+    public int countOcurency (int ocurencyElem) {
+        int ocurency = 0;
+        for(int index = 0; index < vetor.length; index++) {
+            if(vetor[index] == ocurencyElem) {
+                ocurency++;
+            }
+        }
+        return ocurency;
+    }
+
+    public boolean addInStart (int newElem) {
+        if(nroElem == 4) {
+            System.out.println("Lista Cheia");
+            return false;
+        } else {
+            for(int index = vetor.length; index >= 1; index--){
+                vetor[index + 1] = vetor[index];
+            }
+            vetor[0] = newElem;
+            return true;
+        }
+    }
 }

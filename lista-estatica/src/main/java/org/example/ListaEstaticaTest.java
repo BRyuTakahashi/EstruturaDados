@@ -21,5 +21,17 @@ public class ListaEstaticaTest {
         System.out.printf("\n\n");
         listaEstativa.removeElem(3);
         listaEstativa.showElem();
+
+        System.out.println("\n\n");
+        listaEstativa.chanceElem(4, 8);
+        listaEstativa.showElem();
+
+        System.out.println("\n\n");
+        System.out.printf("Lista de Ocorrencias: %d", listaEstativa.countOcurency(2));
+
+        System.out.printf("\n\n");
+        listaEstativa.addInStart(9);
+        listaEstativa.showElem();
+
     }
 }
