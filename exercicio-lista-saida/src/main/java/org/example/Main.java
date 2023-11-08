@@ -1,5 +1,6 @@
 package org.example;
 
+
 import org.example.Entity.Evento;
 
 import java.io.*;
@@ -231,5 +232,9 @@ public class Main {
         for (Evento a : listaLida) {
             System.out.println(a);
         }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+
     }
 }
